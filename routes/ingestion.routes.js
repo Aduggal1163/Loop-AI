@@ -6,4 +6,4 @@ const router = express.Router();
 router.post('/', createIngestion);
 router.get('/:ingestion_id', getStatus);
 
-export default router;
+export default router ;
